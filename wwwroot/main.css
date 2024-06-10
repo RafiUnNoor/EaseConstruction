@@ -38,18 +38,30 @@ body, html {
 }
 
 #header > * {
-    height: 2em;
+    height: 3em;
     margin: 0 0.5em;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: ArtifaktElement;
 }
 
 #header .title {
-    flex: 1 0 auto;
     height: auto;
+    color: cadetblue;
+    font-weight: bold;
 }
 
 #models {
-    flex: 0 1 auto;
-    min-width: 2em;
+    min-width: 3em;
+}
+#upload{
+    height: 2em;
+    width: 8em;
+    border-radius: .25em;
+    color:azure;
+    background-color: burlywood;
+}
+.logo{
+    height: 2em;
+    width: auto;
+    margin-left: 4em;
 }
