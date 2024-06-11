@@ -11,16 +11,18 @@ body, html {
 }
 
 #header {
-    height: 3em;
+    height: 5em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    background-color: gainsboro;
 }
 
 #preview, #overlay {
-    top: 3em;
+    top: 21em;
     bottom: 0;
+    border-bottom: 2px solid gray;
 }
 
 #overlay {
@@ -38,30 +40,91 @@ body, html {
 }
 
 #header > * {
-    height: 3em;
+    height: 2em;
     margin: 0 0.5em;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: ArtifaktElement;
 }
 
 #header .title {
+    flex: 1 0 auto;
     height: auto;
-    color: cadetblue;
     font-weight: bold;
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 5em;
+}
+#header .logo {
+    height: 4em;
+    margin-left: 5em;
 }
 
 #models {
+    flex: 0 1 auto;
     min-width: 3em;
+    border-radius: 1em;
 }
 #upload{
-    height: 2em;
-    width: 8em;
-    border-radius: .25em;
-    color:azure;
-    background-color: burlywood;
+    border: none;
+    background-color: gray;
+    color: azure;
+    border-radius: 1em;
+    margin-right: 5em;
 }
-.logo{
-    height: 2em;
-    width: auto;
-    margin-left: 4em;
+#upload:hover{
+    border: 2px solid gray;
+    border-radius: 1em;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#instruction{
+    position: absolute;
+    width: 100%;
+    top: 5em;
+    margin-left: 5em;
+    border-bottom: 2px solid gray;
+    gap: 0px;
+}
+#instruction h3, #instruction p{
+    width: 90%;
+}
+#instruction h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40%;
+}
+#instruction p{
+    font-size: 15px;
+    font-weight: 600;
+}
+#instruction p ul{
+    list-style: none;
+}
+#instruction p ul p{
+    font-size: 12px;
+}
+
+#other-divisions{
+    position: absolute;
+    width: 100%;
+    top: 60em;
+    background-color: azure;
+}
+
+#other-divisions .about{
+    width: 90%;
+    margin-left: 5em;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    top: 80em;
+    background-color: gray;
+}
+#footer p{
+    width: 90%;
+    margin-left: 5em;
 }
