@@ -9,8 +9,9 @@ Users can interact with the model to understand and visualize the whole building
 
 Please use your APS Id and Token to use this app.
 
-Clone the whole project at your workspace.
-Create a .env file in the same folder.
-Please provide your APS Client ID and APS Token.
-Then upload a 3D file using upload button .
-The app is ready to use and your model is ready to interact with.
+1. Clone the whole project at your workspace.
+2. Create a .env file in the same folder.
+3. Please provide your APS Client ID and APS Token.
+4. Always run this app by launching server by pressing F5 in VS Code or start debugging in any code editor.
+5. Then upload a 3D file using upload button .
+6. The app is ready to use and your model is ready to interact with.
