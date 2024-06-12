@@ -11,7 +11,7 @@ Please use your APS Id and Token to use this app.
 
 1. Clone the whole project at your workspace.
 2. Create a .env file in the same folder.
-3. Please provide your APS Client ID and APS Token.
+3. Please provide your APS Client ID and APS Token in that .env file as it should be provided.
 4. Always run this app by launching server by pressing F5 in VS Code or start debugging in any code editor.
 5. Then upload a 3D file using upload button .
 6. The app is ready to use and your model is ready to interact with.
