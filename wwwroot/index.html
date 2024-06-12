@@ -8,15 +8,16 @@
     
     <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.css">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ease Construction: Simple Viewer</title>
 </head>
 
 <body>
     <div id="header">
-        <img class="logo" src="Image/Logo_Rafi.jpg" alt="Logo Rafi">
+        <img class="logo" src="Image/Logo_Rafi.png" alt="Logo Rafi">
         <span class="title">Ease Construction Viewer</span>
         <select name="models" id="models"></select>
-        <button id="upload" title="Upload New Model">Upload</button>
+        <button id="upload" title="Upload New Model">Upload <i class="ri-file-upload-line"></i></button>
         <input style="display: none" type="file" id="input">
     </div>
     <div id="preview"></div>
@@ -59,9 +60,26 @@
     </div>  
 
     <footer id="footer">
-        <p>Copyright Rafi Un Noor</p>
+        <div class="first">
+            <h3>Reach out to me here </h3>
+            <p>Feel free to ping me for volunteering, discussing your ideas or grabbing a cup of coffee.</p>
+            <ul id="social">
+                <li><a href="https://www.linkedin.com/in/md-rafi-un-noor-washik-811787107/"><i class="ri-linkedin-line"></i></a></li>
+                <li><a href="https://www.facebook.com/rafiunnoor/"><i class="ri-facebook-line"></i></a></li>
+                <li><a href="https://github.com/RafiUnNoor"><i class="ri-github-line"></i></a></li>
+            </ul>
+        </div>
+        <div class="second">
+            <ul id="mailing">
+                <li><i class="ri-map-pin-2-line"></i> <p>55/D, Road No: 9/A , Dhanmondi , Dhaka-1209</p></li>
+                <li><i class="ri-phone-line"></i> <p>+880 1780 962020</p></li>
+                <li><i class="ri-mail-line"></i> <p>rafiun94@gmail.com</p></li>
+            </ul>
+            <p>partially &#169 by Rafi Un Noor</p>
+        </div>
     </footer>
 
+    <!--Please run this by launching server (press F5 / Start Debugging) -->
 
 
 
